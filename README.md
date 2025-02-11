@@ -1,6 +1,8 @@
-# Mr Wipe - Web Page
+# Mr. Wipe - Web Page
 
-This project is an implementation of a web page for a fictional client, **Mr Wipe**, developed using **React**. The goal was to create a visually appealing and functional design, following a layout provided in **Figma**.
+![Mr. Wipe Landing Page](/public/img/screenshot.png)
+
+This project is an implementation of a web page for a fictional client, **Mr. Wipe**, developed using **React**. The goal was to create a visually appealing and functional design, following a layout provided in **Figma**.
 
 ## Technologies Used
 
