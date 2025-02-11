@@ -1,0 +1,70 @@
+.mobile-section-wrapper {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.iphone-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.iphone-section img {
+    max-width: 255px;
+    height: auto;
+    clip-path: inset(0px 0px 3px 0px round 30px);
+    mask-image: linear-gradient(
+        rgba(0, 0, 0, 1) 0%,
+        rgba(0, 0, 0, 1) 82%,
+        rgba(0, 0, 0, 0.1) 90%,
+        rgba(0, 0, 0, 0.05) 93%,
+        rgba(0, 0, 0, 0) 100%
+    );
+    -webkit-mask-image: linear-gradient(
+        rgba(0, 0, 0, 1) 0%,
+        rgba(0, 0, 0, 1) 82%,
+        rgba(0, 0, 0, 0.1) 90%,
+        rgba(0, 0, 0, 0.05) 93%,
+        rgba(0, 0, 0, 0) 100%
+    );
+}
+
+.graphic-border-wrapper {
+    position: absolute;
+    bottom: -165px;
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.graphic-border {
+    max-width: 100%;
+    z-index: 5;
+}
+
+.graphic-border-wrapper::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    width: 100px;
+    height: 200px;
+    background: radial-gradient(circle, rgba(255, 254, 248, 0.9) 100%, rgba(255, 245, 200, 0) 100%);
+    filter: blur(30px);
+    pointer-events: none;
+}
+
+.graphic-border-wrapper::after {
+    content: "";
+    position: absolute;
+    top: -200px;
+    width: 600px;
+    height: 300px;
+    background: radial-gradient(circle, rgba(255, 245, 200, 0.4) 40%, rgba(255, 245, 200, 0) 50%);
+    filter: blur(120px);
+    pointer-events: none;
+}

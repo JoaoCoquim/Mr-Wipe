@@ -1,0 +1,30 @@
+.dl-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    z-index: 10;
+}
+
+.dl-lettering{
+    color: white;
+    font-family: 'Outfit';
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.dl-buttons {
+    display: flex;
+    gap: 32px;
+}
+
+.dl-buttons img {
+    width: 166.15px;   
+    height: auto;
+}

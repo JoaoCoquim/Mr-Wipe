@@ -1,0 +1,26 @@
+[
+    {
+        "text": "“A MR. WIPE superou todas as minhas expectativas! Escolhi o nível de limpeza completo e o meu carro ficou como novo, com um brilho impecável. Adoro a atenção aos detalhes e o compromisso com o ambiente. Recomendo a 100%!”",
+        "name": "Pedro Almeida",
+        "job": "Serviço de Limpeza Automotiva",
+        "img": "../img/Avatar.png"
+    },
+    {
+        "text": "“Serviço incrível! Profissionalismo e atenção aos detalhes fazem toda a diferença. O serviço é muito completo e fiquei admirada por ser tão rápido. A minha casa nunca esteve tão limpa!”",
+        "name": "Ana Silva",
+        "job": "Serviço de Limpeza ao Domicílio",
+        "img": "../img/Avatar2.png"
+    },
+    {
+        "text": "“Ótima experiência com a MR. WIPE. Têm um serviço rápido e eficiente, com atenção ao pormenor. Recomendo a todos os que procuram uma limpeza a fundo ao seu carro, não se vão arrepender!”",
+        "name": "Nuno Martins",
+        "job": "Serviço de Limpeza Automotiva",
+        "img": "../img/Avatar3.png"
+    },
+    {
+        "text": "“Já há algum tempo que pretendia uma limpeza a fundo ao meu carro e resolvi experimentar a MR. WIPE! O serviço é excelente! Foi tudo muito rápido e o carro parece novo.”",
+        "name": "Sakura Kinomoto",
+        "job": "Serviço de Limpeza Automotiva",
+        "img": "../img/Avatar4.png"
+    }
+]

@@ -1,0 +1,153 @@
+.collab-section {
+    padding: 36.5px 24px;
+    background: linear-gradient(92.29deg, #D4CB9D 0%, #9F997A 100%);
+    border-radius: 8px;
+}
+
+.collab-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.collab-icon {
+    width: 48px;
+    height: auto;
+    margin-right: 16px;
+}
+
+.collab-title {
+    font-family: 'Outfit';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.collab-line-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.collab-line {
+    width: 341px;
+    border: 1px solid transparent;
+    border-image-source: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, #2E2E2E 50%, rgba(102, 102, 102, 0) 100%);
+    border-image-slice: 1;
+    opacity: 0.2;
+    margin: 24px 0;
+}
+
+.collab-form {
+    display: flex;
+    flex-direction: column;
+    width: 341px;
+}
+
+.form-group label {
+    display: block;
+    font-family: 'Outfit';
+    color: black;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    max-height: 7px;
+    margin-bottom: 8px;
+}
+
+.form-group input {
+    width: 100%;
+    max-height: 40px;
+    box-sizing: border-box;
+    font-family: 'Inter';
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 8px 16px;
+    margin-bottom: 24px;
+}
+
+.form-group input::placeholder {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.form-action {
+    text-align: right;
+}
+
+.collab-btn {
+    color: #F5E390;
+    background-color: #29261D;
+    padding: 8px 16px;
+    border: 1px solid #E2D285;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Inter';
+    text-align: center;
+    cursor: pointer;
+}
+
+.collab-btn:hover {
+    background-color: #F5E390;
+    color: #29261D;
+    border: 1px solid #F5E390;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.submitted-msg {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Inter';
+    border-radius: 16px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1),
+        inset 0 0 50px rgba(0, 0, 0, 0.15),
+        inset 0 0 100px rgba(0, 0, 0, 0.2);
+}
+
+.submitted-msg h3 {
+    margin: 15px;
+    font-family: 'Outfit';
+    font-size: 21px;
+    color: #c90202;
+}
+
+.submitted-msg p {
+    margin: 10px 0;
+}
+
+.submitted-msg .return-btn {
+    margin-top: 16px;
+    color: #F5E390;
+    background-color: #29261D;
+    padding: 8px 16px;
+    border: 1px solid #E2D285;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Inter';
+    text-align: center;
+    cursor: pointer;
+}
+
+.submitted-msg .return-btn:hover {
+    background-color: #F5E390;
+    color: #29261D;
+    border: 1px solid #F5E390;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}

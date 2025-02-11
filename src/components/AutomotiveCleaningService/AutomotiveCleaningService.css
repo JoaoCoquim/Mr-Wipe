@@ -1,0 +1,91 @@
+.automotive-cleaning-service {
+    background-color: #161616;
+    border-radius: 8px;
+    font-family: 'Outfit', sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 100%;
+    align-items: center;
+    border: 1px solid #202020;
+}
+
+.automotive-service-details {
+    display: flex;
+    flex-direction: column;
+    margin: 71px 0 71px 24px;
+    z-index: 2;
+    flex: 1;
+}
+
+.automotive-service-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.car-icon {
+    width: 48px;
+    margin-right: 16px;
+}
+
+.automotive-service-title {
+    font-family: 'Outfit';
+    font-size: 20px;
+    background: linear-gradient(92.29deg, #FCEC9A 0%, #A69B65 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.automotive-service-description .automotive-description {
+    font-family: 'Inter';
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0 0 32px 0;
+}
+
+.automotive-service-features {
+    font-family: 'Inter';
+    color: white;
+    font-size: 14px;
+    line-height: 24px;
+    display: grid;
+    grid-template-columns: 35% 65%;
+    row-gap: 8px;
+    max-width: 693px;
+    padding-left: 24px;
+    margin: 0;
+}
+
+.automotive-service-features li {
+    text-indent: -5px;
+}
+
+.automotive-service-features li:last-child {
+    grid-column: span 2;
+}
+
+.automotive-service-features li::marker {
+    font-size: 20px;
+    color: #FFF5C3;
+}
+
+.automotive-service-image {
+    display: flex;
+    justify-content: flex-end;
+    height: auto;
+    width: 100%;
+    flex-shrink: 0;
+    position: absolute;
+}
+
+.automotive-service-image img {
+    background: linear-gradient(270.14deg, rgba(22, 22, 22, 0.3) 0.14%, #161616 99.89%);
+    max-height: 438px;
+    width: auto;
+    object-fit: cover;
+}

@@ -1,0 +1,118 @@
+.navbar-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    font-family: 'Inter';
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.navbar {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 1110px;
+    padding: 12px 24px;
+    max-height: 56px;
+    position: relative;
+}
+
+.navbar::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 16px;
+    padding: 1px;
+    background: linear-gradient(182deg, rgba(252, 236, 154, 0.3) 16.65%, rgba(255, 255, 255, 0.09) 51.76%);
+    mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+}
+
+.navbar-logo {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.nav-items {
+    display: flex;
+    flex-grow: 1;
+    gap: 22px;
+    letter-spacing: 2px;
+    margin-left: 32px;
+}
+
+.nav-items a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-items a:hover {
+    color: #646CFF;
+}
+
+.collaborator {
+    justify-content: flex-end;
+    color: #F5E390;
+    background-color: #29261D;
+    padding: 8px 16px;
+    border: 1px solid rgba(201, 187, 119, 0.1);
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Inter';
+    text-align: center;
+    cursor: pointer;
+}
+
+.collaborator:hover {
+    background-color: #F5E390;
+    color: #29261D;
+    border: 1px solid #F5E390;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.flag-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    flex-direction: row;
+    border: 1px solid rgba(166, 155, 101, 0.1);
+    border-radius: 16px;
+    cursor: pointer;
+    box-sizing: border-box;
+    max-height: 48px;
+    padding: 16px;
+}
+
+.flag-container img {
+    width: 18px;
+}
+
+.dropdown-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4.7px 2.88px;
+}
+
+.dropdown-icon img{
+    width: 10.24px;
+    height: 6.6px;
+}

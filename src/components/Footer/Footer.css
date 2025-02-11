@@ -1,0 +1,118 @@
+.footer {
+    width: 100%;
+    box-sizing: border-box;
+    background: linear-gradient(to right, #232323 0%, #111111 100%);
+    padding: 64px 112px 48px;
+}
+
+.above-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.footer-logo {
+    margin-bottom: 8px;
+}
+
+.footer-headline {
+    font-family: 'Outfit';
+    font-size: 20px;
+    background: linear-gradient(92.29deg, #FCEC9A 0%, #A69B65 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin-bottom: 52px;
+}
+
+.footer-items {
+    display: flex;
+    gap: 24px;
+}
+
+.footer-items a {
+    color: white;
+    font-family: 'Inter';
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+.footer-items a:hover {
+    color: #646CFF;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+}
+
+.dl-letters {
+    color: white;
+    font-family: 'Inter';
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.dl-btn {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.dl-btn img {
+    height: 40px;
+}
+
+.footer-line-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.footer-line {
+    border: 1px solid transparent;
+    border-image-source: linear-gradient(92.29deg, rgba(252, 236, 154, 0.2) 0%, rgba(166, 155, 101, 0.2) 100%);
+    border-image-slice: 1;
+}
+
+.below-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-line-container {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-line {
+    width: 100%;
+    margin: 32px 0;
+}
+
+.reserved-rights {
+    color: white;
+    font-family: 'Inter';
+    font-size: 14px;
+    margin: 0;
+}
+
+.social-icons {
+    display: flex;
+    gap: 24px;
+}
+
+.social-icons img {
+    height: 24px;
+    width: 24px;
+}
