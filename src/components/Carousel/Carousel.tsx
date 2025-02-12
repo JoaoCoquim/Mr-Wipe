@@ -1,10 +1,19 @@
 import React, { useState, useEffect } from 'react'
 import './Carousel.css'
-import testimonials from '../../assets/data/testimonials.json'
+import testimonialsData from '../../assets/data/testimonials.json'
+
+type Testimonial = {
+  text: string;
+  img: string;
+  name: string;
+  job: string;
+}
+
+const testimonials: Testimonial[] = testimonialsData;
 
 function Carousel() {
-  const [currentIndex, setCurrentIndex] = useState(0)
-  const [transition, setTransition] = useState(false)
+  const [currentIndex, setCurrentIndex] = useState<number>(0)
+  const [transition, setTransition] = useState<boolean>(false)
 
   useEffect(() => {
     const interval = setInterval(() => {

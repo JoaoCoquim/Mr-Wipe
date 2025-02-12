@@ -3,12 +3,12 @@ import './CollabSection.css';
 
 function CollabSection() {
 
-    const [name, setName] = useState('')
-    const [telephone, setTelephone] = useState('')
-    const [zipCode, setZipCode] = useState('')
-    const [submitted, setSubmitted] = useState(false);
+    const [name, setName] = useState<string>('')
+    const [telephone, setTelephone] = useState<string>('')
+    const [zipCode, setZipCode] = useState<string>('')
+    const [submitted, setSubmitted] = useState<boolean>(false);
 
-    const handleSubmit = (e) => {
+    const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault()
         setSubmitted(true)
     }
